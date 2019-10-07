@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+body {
+  margin: 0px !important;
+  background-color: $app-background !important;
+  font-size: 14px !important;
+  color: $primaryTextColor;
+  font-family: 'Source Sans Pro' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  min-height: 100vh !important;
+}
+
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.c-pointer {
+  cursor: pointer;
+}

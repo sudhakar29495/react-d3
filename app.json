@@ -1,0 +1,17 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "d3-charts",
+  "scripts": {
+    "postdeploy": "npm i && npm run build && serve -s build"
+  },
+  "stack": "heroku-18"
+}
